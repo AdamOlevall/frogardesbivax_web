@@ -1,0 +1,134 @@
+.first-section--cart {
+    background: #ffffff;
+    padding: 50px 0;
+}
+
+.second-section--cart {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.page-title--cart {
+    font-size: 56px;
+    font-weight: 800;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.cart--item-list {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    align-items: center;
+}
+
+.cart--item-wrapper{
+    display: flex;
+    margin-bottom: 32px;
+    width: 100%;
+    border-bottom: 1px solid rgb(188, 76, 42);
+    padding-bottom: 12px;
+}
+
+.cart--item-info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cart--name {
+   font-size: 32px;
+   font-weight: 500;
+   margin-bottom: 12px;
+}
+
+.cart--image {
+    width: 250px;
+}
+
+.cart--price {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
+.cart--quantity {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
+.cart--total-item-cost {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-bottom: 16px;
+}
+
+.cart--total-item-cost span {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.cart--settings {
+    display: flex;
+}
+
+.cart--remove-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 24px;
+};
+
+.cart--remove-button svg {
+    fill: rgb(188, 76, 42);
+};
+
+.cart--bin-icon {
+position: absolute;
+}
+
+.cart--empty-cart {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.cart--button-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.cart--total-cart-cost {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.cart--total-cart-cost span {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.cart--to-checkout-button {
+    width: 355px;
+    color: #ffffff;
+    background: rgb(188, 76, 42);
+    border: 1px solid rgb(188, 76, 42);
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 12px 0px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.cart--to-checkout-butto:hover {
+    color: rgb(188, 76, 42);
+    background: #ffffff;
+}

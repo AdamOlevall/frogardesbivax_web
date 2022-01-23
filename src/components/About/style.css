@@ -1,0 +1,71 @@
+.first-section--about {
+    background: #ffffff;
+    padding: 50px 0;
+}
+
+.page-title--about {
+    font-size: 56px;
+    font-weight: 800;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.second-section--about {
+    display: flex;
+    
+}
+
+.third-section--about {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+.second-section--left {
+    flex: 1;
+    padding: 200px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(246, 243, 239);
+}
+
+.second-page-title--about {
+    font-size: 32px;
+    font-weight: 500;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-bottom: 50px;
+}
+
+.second-page-text--about {
+    font-size: 20px;
+    font-weight: 200;
+    color: #000000;
+    letter-spacing: 4px;
+    line-height: 30px;
+    width: 400px;
+    text-align: center;
+}
+
+.second-page-text--about--second {
+    margin-top: 40px;
+}
+
+.second-page-text--about--long {
+    width: 600px;;
+}
+
+
+.second-section--right {
+    flex: 1;
+    background-image: url("../../images/bin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
