@@ -33,7 +33,7 @@
 }
 
 .page-title--checkOut--delivery {
-    font-size: 56px;
+    font-size: 48px;
     font-weight: 800;
     color: #000000;
     text-transform: uppercase;
@@ -56,7 +56,7 @@
 }
 
 .page-title--checkOut {
-    font-size: 56px;
+    font-size: 48px;
     font-weight: 800;
     color: #000000;
     text-transform: uppercase;
@@ -101,39 +101,39 @@
 }
 
 .checkOut--name {
-   font-size: 24px;
+   font-size: 18px;
    font-weight: 400;
    margin-left: 24px;
 }
 
 .checkOut--image {
-    width: 250px;
+    width: 200px;
 }
 
 .checkOut--price {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 300;
     margin-right: 4px;
 }
 
 .checkOut--quantity {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 300;
     margin-bottom: 12px;
 }
 
 .checkOut--total-item-cost {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
 }
 
 .checkOut--total-item-cost span {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .checkOut--total-cart-cost {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 300;
     display: flex;
     justify-content: flex-end;
@@ -147,7 +147,7 @@
 
 .checkOut--total-cart-cost span {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     margin-left: 6px;
 }
 
@@ -171,7 +171,7 @@ position: absolute;
 }
 
 .checkOut--empty-cart {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 500;
 }
 
@@ -191,7 +191,7 @@ position: absolute;
     padding: 12px 0px;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
 
 }
@@ -210,14 +210,14 @@ position: absolute;
 }
 
 .checkOut--delivery-header {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 500;
     color: #000000;
     margin-bottom: 12px;
 }
 
 .checkOut--delivery-text {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     color: #000000;
     line-height: 32px;

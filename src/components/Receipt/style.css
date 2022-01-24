@@ -4,7 +4,7 @@
 }
 
 .page-title--receipt {
-    font-size: 56px;
+    font-size: 48px;
     font-weight: 800;
     color: #000000;
     text-transform: uppercase;
@@ -22,15 +22,15 @@
 
 .receipt--header {
     font-weight: 400;
-    font-size: 36px;
+    font-size: 28px;
     margin-bottom: 20px;
 }
 
 .receipt--text {
     font-weight: 300;
-    font-size: 24px;
+    font-size: 18px;
     width: 60%;
-    line-height: 32px;
+    line-height: 24px;
     margin-bottom: 30px;
 }
 
@@ -74,39 +74,39 @@
 }
 
 .receipt--name {
-   font-size: 24px;
+   font-size: 18px;
    font-weight: 400;
    margin-left: 24px;
 }
 
 .receipt--image {
-    width: 250px;
+    width: 200px;
 }
 
 .receipt--price {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 300;
     margin-right: 4px;
 }
 
 .receipt--quantity {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 300;
     margin-bottom: 12px;
 }
 
 .receipt--total-item-cost {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
 }
 
 .receipt--total-item-cost span {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .receipt--total-cart-cost {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 300;
     display: flex;
     justify-content: flex-end;
@@ -120,7 +120,7 @@
 
 .receipt--total-cart-cost span {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     margin-left: 6px;
 }
 

@@ -10,7 +10,7 @@
 }
 
 .page-title--cart {
-    font-size: 56px;
+    font-size: 48px;
     font-weight: 800;
     color: #000000;
     text-transform: uppercase;
@@ -30,7 +30,7 @@
     display: flex;
     margin-bottom: 32px;
     width: 100%;
-    border-bottom: 1px solid rgb(188, 76, 42);
+    border-bottom: 1px solid grey;
     padding-bottom: 12px;
 }
 
@@ -41,29 +41,29 @@
 }
 
 .cart--name {
-   font-size: 32px;
-   font-weight: 500;
+   font-size: 20px;
+   font-weight: 400;
    margin-bottom: 12px;
 }
 
 .cart--image {
-    width: 250px;
+    width: 200px;
 }
 
 .cart--price {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 300;
     margin-bottom: 12px;
 }
 
 .cart--quantity {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 300;
     margin-bottom: 12px;
 }
 
 .cart--total-item-cost {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 300;
     margin-top: 60px;
     margin-bottom: 16px;
@@ -71,7 +71,7 @@
 
 .cart--total-item-cost span {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .cart--settings {
@@ -94,7 +94,7 @@ position: absolute;
 }
 
 .cart--empty-cart {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 500;
 }
 
@@ -107,13 +107,13 @@ position: absolute;
 }
 
 .cart--total-cart-cost {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
 }
 
 .cart--total-cart-cost span {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .cart--to-checkout-button {
@@ -124,11 +124,33 @@ position: absolute;
     border-radius: 2px;
     cursor: pointer;
     padding: 12px 0px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
 }
 
 .cart--to-checkout-butto:hover {
     color: rgb(188, 76, 42);
     background: #ffffff;
+}
+
+.cart--page-link {
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(188, 76, 42);
+    text-align: center;
+    border: 1px solid rgb(188, 76, 42);
+    text-decoration: none;
+    padding: 20px 90px;
+    margin-top: 50px;
+}
+
+.cart--page-link:hover {
+    color: #ffffff;
+    background: rgb(188, 76, 42);
+}
+
+.cart--empty--cart-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

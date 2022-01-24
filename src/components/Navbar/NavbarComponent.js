@@ -15,7 +15,7 @@ const NavbarComponent = () => {
             <NavLink exact to="/kontakt">Kontakt</NavLink>
             <NavLink exact to="/kundvagn">
                 <div className="shopping-cart">
-                    <ReactLogo width="45px"/>          
+                    <ReactLogo width="35px"/>          
                   {numberOfItems > 0 && <p className={`number-of-items ${numberOfItems >= 10 ? 'wide' : ''}`}>{numberOfItems}</p> }
                 </div>
             </NavLink>

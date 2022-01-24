@@ -1,6 +1,7 @@
 import * as React from 'react';
 import * as Redux from 'react-redux';
 import { NavLink } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import {ReactComponent as ReactLogo} from '../../trash-bin.svg';
 import {increaseItem, decreaseItem, removeItem} from '../../store/actions';
 import {getTotalCostForCart} from '../../store/selectors';
@@ -51,7 +52,7 @@ const CartComponent = () => {
                                                 <button className="product-quantity--button add" onClick={() => handleIncrease(item.id)}>+</button>
                                             </div>
                                             <button className="cart--remove-button" onClick={() => handleRemoveItem(item.id)}>
-                                                <ReactLogo width="30px" fill="rgb(188, 76, 42)" className="cart--bin-icon"/>   
+                                                <ReactLogo width="20px" fill="rgb(188, 76, 42)" className="cart--bin-icon"/>   
                                             </button>
                                         </div>
                                         <p className="cart--total-item-cost">Pris: <span>{item.quantity * Number(item.price)} kr</span></p>
@@ -64,7 +65,12 @@ const CartComponent = () => {
                     <NavLink exact to="/check-out"><button className="cart--to-checkout-button">Till utcheckning</button></NavLink>
                     </div>
                 </div> :
-                <p className="cart--empty-cart">Din kundvagn är tom</p>
+                    <div className="cart--empty--cart-wrapper">
+                        <p className="cart--empty-cart">Din kundvagn är tom!</p>
+                        <Link to={'/produkter/'} className="cart--page-link">
+                        Till alla produkter
+                        </Link>
+                    </div>
             }
         </div>
     </>

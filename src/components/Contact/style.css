@@ -4,7 +4,7 @@
 }
 
 .page-title--contact {
-    font-size: 56px;
+    font-size: 48px;
     font-weight: 800;
     color: #000000;
     text-transform: uppercase;
@@ -24,7 +24,7 @@
 }
 
 .second-page-title--contact {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 500;
     color: #000000;
     text-transform: uppercase;
@@ -33,7 +33,7 @@
 }
 
 .second-page-text--contact {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 200;
     color: #000000;
     letter-spacing: 4px;
@@ -50,6 +50,6 @@
     background: #ffffff;
 }
 .contact--image {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
 }

@@ -4,7 +4,7 @@
 }
 
 .page-title--about {
-    font-size: 56px;
+    font-size: 48px;
     font-weight: 800;
     color: #000000;
     text-transform: uppercase;
@@ -36,7 +36,7 @@
 }
 
 .second-page-title--about {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 500;
     color: #000000;
     text-transform: uppercase;
@@ -45,7 +45,7 @@
 }
 
 .second-page-text--about {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 200;
     color: #000000;
     letter-spacing: 4px;

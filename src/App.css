@@ -5,8 +5,8 @@
   justify-content: flex-start;
   width: 100%;
   background-color: #ffffff;
-  min-height: calc(100vh - 73px - 230px);
-  margin-top: 73px;
+  min-height: calc(100vh - 50px - 180px);
+  margin-top: 50px;
 }
 
 .toaster {

@@ -35,22 +35,21 @@
 }
 
 .page-title--delivery {
-    font-size: 56px;
+    font-size: 48px;
     font-weight: 800;
     color: #000000;
     text-transform: uppercase;
     letter-spacing: 8px;
     text-align: center;
-    margin-bottom: 48px;
 }
 
 .second-page-title--delivery {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 500;
     color: #000000;
     text-transform: uppercase;
     letter-spacing: 8px;
-    margin-bottom: 50px;
+    margin-bottom: 28px;
 }
 
 .second-page-title--delivery.margin-top {
@@ -60,10 +59,10 @@
 
 
 .page-text--delivery {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 200;
     color: #000000;
-    letter-spacing: 4px;
-    line-height: 30px;
+    letter-spacing: 2px;
+    line-height: 24px;
     width: 75%;
 }

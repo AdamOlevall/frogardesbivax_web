@@ -11,7 +11,7 @@
 }
 
 .page-title--product {
-    font-size: 56px;
+    font-size: 48px;
     font-weight: 800;
     color: #000000;
     text-transform: uppercase;
@@ -37,7 +37,7 @@
 }
 
 .back-link a {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
     color: #000000;
     text-transform: uppercase;
@@ -45,7 +45,7 @@
 }
 
 .back-link a:hover {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
     color: grey;
     text-transform: uppercase;
@@ -87,7 +87,7 @@
 }
 
 .product_name--product {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
     margin-bottom: 24px;
     text-transform: uppercase;
@@ -95,7 +95,7 @@
 
 
 .product_price--product {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 300;
     margin-bottom: 36px;
 }
@@ -155,7 +155,7 @@
 }
 
 .product-total-cost {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 300;
     margin-top: 60px;
     margin-bottom: 16px;
@@ -163,7 +163,7 @@
 
 .product-total-cost span {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .product-add-to-cart {
@@ -186,21 +186,21 @@
 
 .product_info--title {
     color: rgb(188, 76, 42);
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 300;
     margin-bottom: 12px;
     text-transform: uppercase;
 }
 
 .product_info--text {
-    font-size: 18px;
+    font-size: 12px;
     line-height: 24px;
     width: 355px;
     margin-bottom: 30px;
 }
 
 .dropdown--title {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     margin-bottom: 12px;
 }
@@ -220,7 +220,7 @@
     background: #ffffff;
     width: 100%;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .dropdown--open {

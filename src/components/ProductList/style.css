@@ -4,7 +4,7 @@
 }
 
 .page-title--products {
-    font-size: 56px;
+    font-size: 48px;
     font-weight: 800;
     color: #000000;
     text-transform: uppercase;
@@ -32,20 +32,20 @@
 }
 
 .product_name {
-   font-size: 20px;
+   font-size: 18px;
    font-weight: 400;
    margin-bottom: 12px;
    text-align: center;
 }
 
 .product_image {
-    width: 350px;
-    height: 350px;
+    width: 270px;
+    height: 270px;
     margin-bottom: 12px;
 }
 
 .product_price {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 300;
     text-align: center;
     margin-bottom: 100px;
